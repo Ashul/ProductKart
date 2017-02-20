@@ -1,0 +1,15 @@
+.p-container{
+    padding: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size:14px;
+    -webkit-box-shadow: 0 0 1px 1px #ccc;
+    box-shadow: 0 0 1px 1px #ccc;
+}
+.p-img{text-align: center;}
+.p-name{font-weight:bold;margin-bottom:5px;font-size: 13px;}
+.p-img img {width:90%;}
+.btn-cust {
+    padding:5px 10px;
+    font-size: 13px;
+}

@@ -1,0 +1,25 @@
+<h1 style="font-size:20px;text-align: center; margin:25px 0; border-bottom:1px solid #ccc;padding-bottom: 30px;">Product List</h1>
+ <div class="container">
+     <div class="row">
+            <div *ngFor="let product of products" 
+                    (click)="onSelect(product)"
+                    class="col-md-3">
+            <div class="p-container">
+            <div class="p-img"><img src="{{product.imageUrl}}" alt="product" /></div>
+            <div class="p-name">{{product.id | uppercase}}</div>
+            <div class="p-name">Rs 1023</div>
+            <div>
+                 <button >View Details</button>
+               
+            </div>
+          
+     </div>
+    
+</div>
+
+ <!--  <my-product-detail [product]="selectedProduct"></my-product-detail>-->
+
+
+ </div>
+ </div>
+
